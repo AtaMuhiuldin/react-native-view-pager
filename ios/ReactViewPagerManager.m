@@ -5,7 +5,7 @@
 
 #pragma mark - RTC
 
-RCT_EXPORT_MODULE(RNCViewPager)
+RCT_EXPORT_MODULE(RNCViewPager_)
 
 RCT_EXPORT_VIEW_PROPERTY(initialPage, NSInteger)
 RCT_EXPORT_VIEW_PROPERTY(pageMargin, NSInteger)
