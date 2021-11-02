@@ -2,7 +2,7 @@ import type { ReactElement } from 'react';
 import { HostComponent, requireNativeComponent, UIManager } from 'react-native';
 import type { PagerViewProps } from './types';
 
-const VIEW_MANAGER_NAME = 'RNCViewPager';
+const VIEW_MANAGER_NAME = 'RNCViewPager_';
 
 interface PagerViewViewManagerType extends HostComponent<PagerViewProps> {
   getInnerViewNode(): ReactElement;
